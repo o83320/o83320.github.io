@@ -168,8 +168,8 @@ body {
 }
 .btn-secondary,
 .btn-secondary:active {
-  background-color: #ff3366 !important;
-  border-color: #ff3366 !important;
+  background-color: #cc2952 !important;
+  border-color: #cc2952 !important;
   color: #ffffff !important;
 }
 .btn-secondary:hover,
@@ -177,14 +177,14 @@ body {
 .btn-secondary.focus,
 .btn-secondary.active {
   color: #ffffff !important;
-  background-color: #e50039 !important;
-  border-color: #e50039 !important;
+  background-color: #8c1c38 !important;
+  border-color: #8c1c38 !important;
 }
 .btn-secondary.disabled,
 .btn-secondary:disabled {
   color: #ffffff !important;
-  background-color: #e50039 !important;
-  border-color: #e50039 !important;
+  background-color: #8c1c38 !important;
+  border-color: #8c1c38 !important;
 }
 .btn-info,
 .btn-info:active {
@@ -332,22 +332,22 @@ body {
 .btn-secondary-outline,
 .btn-secondary-outline:active {
   background: none;
-  border-color: #cc0033;
-  color: #cc0033;
+  border-color: #771830;
+  color: #771830;
 }
 .btn-secondary-outline:hover,
 .btn-secondary-outline:focus,
 .btn-secondary-outline.focus,
 .btn-secondary-outline.active {
   color: #ffffff;
-  background-color: #ff3366;
-  border-color: #ff3366;
+  background-color: #cc2952;
+  border-color: #cc2952;
 }
 .btn-secondary-outline.disabled,
 .btn-secondary-outline:disabled {
   color: #ffffff !important;
-  background-color: #ff3366 !important;
-  border-color: #ff3366 !important;
+  background-color: #cc2952 !important;
+  border-color: #cc2952 !important;
 }
 .btn-info-outline,
 .btn-info-outline:active {
@@ -467,7 +467,7 @@ body {
   color: #149dcc !important;
 }
 .text-secondary {
-  color: #ff3366 !important;
+  color: #cc2952 !important;
 }
 .text-success {
   color: #f7ed4a !important;
@@ -493,7 +493,7 @@ a.text-primary:focus {
 }
 a.text-secondary:hover,
 a.text-secondary:focus {
-  color: #cc0033 !important;
+  color: #771830 !important;
 }
 a.text-success:hover,
 a.text-success:focus {
@@ -588,8 +588,8 @@ a:hover {
   color: #dfd9c6;
 }
 /* Scroll to top button*/
-.scrollToTop_wraper {
-  display: none;
+#scrollToTop a {
+  border-radius: 100px;
 }
 #scrollToTop a i:before {
   content: '';
@@ -1758,7 +1758,16 @@ body {
   color: #c1c1c1 !important;
 }
 .cid-qTkA127IK8 {
-  background-image: url("../../../assets/images/jumbotron.jpg");
+  background-image: url("../../../assets/images/mbr-1920x1280.jpg");
+}
+.cid-qTkA127IK8 .mbr-text,
+.cid-qTkA127IK8 .mbr-section-btn {
+  color: #ff3366;
+  text-align: center;
+}
+.cid-qTkA127IK8 DIV {
+  color: #149dcc;
+  text-align: center;
 }
 .cid-qTkAaeaxX5 {
   padding-top: 60px;
@@ -1826,4 +1835,7 @@ body {
     justify-content: center;
     -webkit-justify-content: center;
   }
+}
+.cid-qTkAaeaxX5 P {
+  color: #ab95e4;
 }
